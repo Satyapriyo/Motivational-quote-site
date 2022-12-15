@@ -17,7 +17,7 @@ const getNewQuotes = () => {
     author.innerText = `unknown`;
   }
   else{
-    author.innerText = `${realData[randN].author}`;
+    author.innerText = `By   ${realData[randN].author}`;
   }
 };
 const getQuotes = async () => {
